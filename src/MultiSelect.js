@@ -61,7 +61,7 @@ componentWillReceiveProps(nextProps){
             />
           </div>
           {arrayValue.length>0 &&  <div className="col-lg-6">
-          <h3>Step 3</h3>
+          <h3>Selected Flags:</h3>
           
 
           <ul>

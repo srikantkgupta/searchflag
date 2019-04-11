@@ -61,7 +61,7 @@ class Search extends React.Component {
        <h3>Step 1</h3>
        <h5>Select a continent.</h5>
         {this.renderDropDownCountry()}
-        {continent && <p><span>you selected</span> <span className="continent_heading">{continent}</span></p>}
+        {continent && <p><span className="continent_select">you selected</span> <span className="continent_heading">{continent}</span></p>}
         </div>
        <div className="col-lg-8">
             {continent && <MultiSelect getSelectionClear ={this.getSelectionClear} bigList={this.state.continentState.map(function(x,i) { 

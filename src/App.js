@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-  <Search name='srikant'/> 
+          <Search name=''/> 
       </div>
     );
   }
