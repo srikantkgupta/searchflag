@@ -69,4 +69,6 @@ ul{ display: inline-block;
   text-align: center;
   padding: 10px;}
 ul li{ width: auto; display: inline-block; margin:0 5px 0 0;font-size: 22px;}
+ul li:nth-child(even){color:red;}
+ul li:nth-child(odd){color:green;}
 .picky__dropdown .option, .picky__dropdown li{border-bottom: 1px solid #bababa !important;}
